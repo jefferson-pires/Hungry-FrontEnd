@@ -1,0 +1,67 @@
+body{
+	background-color: #66cc66;
+	color: 	#FFFFFF;
+	font-family: century ghotic;
+}
+
+#titulo{
+	text-align: center;
+	background-color: #66cc66;
+}
+
+#espaco_restaurante, #espaco_cliente, #espaco_home{
+	text-align: center;
+	background-color: #004F4F;
+}
+
+a{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	
+}
+
+a:hover{
+	color: #008080;
+	text-decoration: underline;
+}
+
+td, th{
+	text-align: center;
+}
+
+tbody{
+	background-color: #004F4F;
+}
+
+#titulo_descricao{
+	text-align: center;
+}
+
+#bg_descricao{
+	background-color: #004F4F;
+}
+
+#texto{
+	text-align: justify;
+}
+
+#botao{
+	background-color: #004F4F;
+}
+
+#botao:hover{
+	background-color: #FFFFFF;
+	color: #004F4F;
+}
+
+#nome, #telefone, #endereco, #preco_max, #preco_min, #email, #id, #preco{
+	color: black;
+}
+
+#rodape{
+	font-size: 12px;
+}

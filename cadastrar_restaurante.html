@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" lang="PT-BR">
+   <title>Hungry's Price</title>
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+   <script src="js/script_03.js"></script>
+</head>
+<body>
+   <div id="container_01" class="pure-g">
+      <div id="titulo" class="pure-u-1-1">
+	     <h1>Restaurantes</h1>
+		 <h2>Cadastrar um novo restaurante</h2>
+	  </div>
+	  <div class="pure-u-1-2">
+	     <center>
+	     <form class="pure-form pure-form-stacked">
+		    <fieldset>
+			   
+			   <label for="nome">Nome</label>
+			   <input id="nome" type="text" placeholder="Camarão do Gilvan" required>
+			   
+			   <label for="telefone">Telefone</label>
+			   <input id="telefone" type="text" placeholder="8632242683" required>
+			   
+			   <label for="endereco">Endereço</label>
+			   <input id="endereco" type="text" placeholder="Rua das almas vivas" required>
+			   
+			   <label for="preco_min">Preço Mínimo</label>
+			   <input id="preco_min" type="text" placeholder="10.00" required>
+			   
+			   <label for="preco_max">Preço Máximo</label>
+			   <input id="preco_max" type="text" placeholder="100.00" required>
+			   
+			   <button id="botao" type="submit" class="pure-button pure-button-primary">Cadastrar</button>
+			</fieldset>
+		 </form>
+		 </center>
+	  </div>
+	  <div id="espaco_restaurante" class="pure-u-1-2">
+	     <h2>Preencha os dados ao lado corretamente!</h2>
+		 <p id="texto">&nbsp&nbsp&nbspAtenção especial para os campos <b>"Preço Mínimo"</b> e <b>"Preço Máximo"</b>, tais 
+		 campos se referem ao prato individual <b>mais barato</b> e ao <b>mais caro</b> do restaurante, respectivamente.
+		 </p>
+		 <p id="texto">&nbsp&nbsp&nbspQuando todos os campos estiverem preenchidos, clique em <b>"Cadastrar"</b> para finalizar.
+		 </p>
+		 <div id="espaco_home" class="pure-u-1-2">
+			   <a href="index.html">HOME</a>
+			</div>
+			<div id="espaco_restaurante" class="pure-u-1-2">
+			   <a href="restaurante.html">VOLTAR</a>
+			</div>
+	  </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" lang="PT-BR">
+   <title>Hungry's Price</title>
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+   <script src="js/script_07.js"></script>
+</head>
+<body>
+   <div id="container_01" class="pure-g">
+      <div id="titulo" class="pure-u-1-1">
+	     <h1>Restaurantes</h1>
+		 <h2>Atualizar dados do restaurante</h2>
+	  </div>
+	  <div class="pure-u-1-2">
+	     <center>
+	     <form class="pure-form pure-form-stacked">
+		    <fieldset>
+			   
+			   <label for="id">Id</label>
+			   <input id="id" type="text" placeholder="1" required>
+			   
+			   <label for="nome">Novo Nome</label>
+			   <input id="nome" type="text" placeholder="Churrascaria Gonzalvez" required>
+			   
+			   <button id="botao" type="submit" class="pure-button pure-button-primary">Atualizar</button>
+			</fieldset>
+		 </form>
+		 </center>
+	  </div>
+	  <div id="espaco_restaurante" class="pure-u-1-2">
+	     <h2>Preencha os dados ao lado corretamente!</h2>
+		 <p id="texto">&nbsp&nbsp&nbspNo campo <b>Id</b> insira o código do restaurante, e no campo <b>Novo Nome</b> dê um novo 
+		 nome para o estabelecimento.
+		 </p>
+		 <p id="texto">&nbsp&nbsp&nbspQuando todos os campos estiverem preenchidos, clique em <b>"Atualizar"</b> para finalizar.
+		 </p>
+		 <div id="espaco_home" class="pure-u-1-2">
+			   <a href="index.html">HOME</a>
+			</div>
+			<div id="espaco_restaurante" class="pure-u-1-2">
+			   <a href="restaurante.html">VOLTAR</a>
+			</div>
+	  </div>
+   </div>
+</body>
+</html>
