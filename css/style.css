@@ -1,17 +1,18 @@
 body{
-	background-color: #66cc66;
+	background-color: white;
 	color: 	#FFFFFF;
 	font-family: century ghotic;
 }
 
 #titulo{
-	text-align: center;
-	background-color: #66cc66;
+	padding: 20px 20px 20px 80px;
+	text-align: left;
+	background-color: #618685;
 }
 
 #espaco_restaurante, #espaco_cliente, #espaco_home{
 	text-align: center;
-	background-color: #004F4F;
+	background-color: #50394c;
 }
 
 a{
@@ -38,6 +39,7 @@ tbody{
 }
 
 #titulo_descricao{
+	color: white;
 	text-align: center;
 }
 
@@ -53,6 +55,13 @@ tbody{
 	background-color: #004F4F;
 }
 
+#teste{
+  background-image: url(logo_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
 #botao:hover{
 	background-color: #FFFFFF;
 	color: #004F4F;
@@ -65,3 +74,44 @@ tbody{
 #rodape{
 	font-size: 12px;
 }
+
+#sobre{
+	color: white;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 15px 10px 25px 35px;
+	padding: 20px 40px 20px 15px;
+	background-color:#618685;
+}
+
+#menu{
+		  background-color:#50394c;
+		  height: 30px;
+		  width:100%;
+		   
+		  margin:0 auto;
+		  top:80px;	
+          left: 0px;
+		  z-index: 3;
+        }
+		#menu ul {
+	      top: 10%;
+	      padding:0px;
+	      margin:0px;
+	      background-color:#50394c;
+	      list-style:none;
+        }
+        #menu ul li { display: inline; }
+        #menu ul li a {
+	      padding: 2px 10px;
+	      display: inline-block;
+	      background-color:#50394c;
+	      color: #333;
+	      text-decoration: none;
+	      
+        }
+        #menu ul li a:hover {
+	      background-color:#b2b2b2;
+	      color: white;
+	      transition: background-color 1s , color 1s , border-bottom 1s; 
+	      transition-timing-function: ease-out;
+        }
